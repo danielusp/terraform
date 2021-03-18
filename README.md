@@ -1,5 +1,17 @@
 # Terraform
 
+## Run Terraform enviroment
+
+```bash
+make playground
+```
+
+Stop enviroment
+
+```bash
+make stop
+```
+
 ## Docker example
 
 Build an image with nginx and run a container.

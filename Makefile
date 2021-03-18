@@ -10,8 +10,10 @@ run:
 
 	sudo chmod 666 /var/run/docker.sock
 
-playground:
+exec:
 	docker exec -it terraform-playground /bin/bash
+
+playground: build run exec
 
 stop:
 	docker stop terraform-playground
