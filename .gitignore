@@ -1,0 +1,5 @@
+projects/docker/*
+!projects/docker/main.tf
+!projects/docker/run.sh
+projects/example/*
+!projects/example/main.tf
